@@ -2,6 +2,8 @@
 
 This project is a proof of concept for a Hackbot, an AI-driven system that autonomously finds vulnerabilities in web applications. It takes a raw HTTP request as input and attempts to identify and exploit potential security vulnerabilities. It's probably not the best way to build a hackbot, but you can view it as inspiration.
 
+WARNING: THIS POC IS LIKELY NOT SAFE TO USE IF YOURE HACKING ANYTHING WITH PROMPT INJECTION PAYLOADS POTENTIALLY IN THE REQUESTS AS IT CALLS EXEC() MEANING PROMPT INJECTION COULD LEAD TO RCE ON YOUR MACHINE.
+
 ## Getting Started
 
 ### Prerequisites
